@@ -8,8 +8,6 @@ function wnalert()
 	var pos = time.length - 1;
 	const start = new Date("2023-01-13");
 	const end = start + (86400000 * 14);
-	//const end = new Date("2023-01-13");
-	//const start = end - (86400000 * 15);
 	var day = Date.now();
 	var tot = 0;
 	var hours = 0;
