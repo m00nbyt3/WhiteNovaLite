@@ -1,0 +1,17 @@
+{
+	"manifest_version": 3,
+	"name": "42 WhiteNova Lite",
+	"icons":
+	{
+	"16": "space.png",
+	"48": "space.png",
+	"128": "space.png"
+	},
+	"version": "0.1",
+	"description": "Alerts the user with the time left fot the White Nova",
+	"content_scripts": [{
+		"matches": ["https://profile.intra.42.fr/"],
+		"run_at": "document_start",
+		"js": ["main.js"]
+  	}]
+}
