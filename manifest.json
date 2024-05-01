@@ -7,7 +7,7 @@
 	"48": "space.png",
 	"128": "space.png"
 	},
-	"version": "2.3",
+	"version": "2.4",
 	"description": "Alerts the user with the time left fot the White Nova",
 	"content_scripts": [{
 		"matches": ["https://profile.intra.42.fr/"],
