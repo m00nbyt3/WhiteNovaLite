@@ -49,14 +49,12 @@ function wnalert()
 		pos--;
 	}
 	var per = (tot / 60) * 100 / 12;
-	//console.log(tot / 60);
-	//console.log(per);
 	var left = 720 - tot;
 	if (left < 0)
 		alert("White Nova completado!!!");
 	else
 	{
-		alert("Faltan " + (left / 60).toFixed(0) + " horas y "+ ((((left/60) % 1).toFixed(2)) * 60).toFixed(0) + " minutos (" + per.toFixed(2) + "%)");
+		alert("Faltan " + Math.floor(left / 60) + " horas y "+ (left % 60) + " minutos (" + per.toFixed(2) + "%)");
 	}
 }
 
