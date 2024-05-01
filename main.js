@@ -32,7 +32,7 @@ function wnalert()
 	var hours = 0;
 	var mins = 0;
 	var day = 0;
-	while (day < daysSinceFriday)
+	while (day <= daysSinceFriday)
 	{
 		hours = time[pos].getAttribute('data-original-title');
 		tot += (hours[0] * 60);
